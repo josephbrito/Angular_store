@@ -1,0 +1,11 @@
+<h2>Product details</h2>
+
+<div class="item-container">
+  <div *ngIf="product" class="item-card">
+    <img [src]="product.image" class="phone" draggable="false" />
+    <h3>{{ product.name }}</h3>
+    <h4>{{ product.price | currency }}</h4>
+    <p>{{ product.description }}</p>
+    <button (click)="addToCart(product)">ADD CART</button>
+  </div>
+</div>

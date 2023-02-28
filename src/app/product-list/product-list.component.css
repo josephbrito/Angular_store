@@ -1,0 +1,24 @@
+h2 {
+  font-family: "Tilt Warp", cursive;
+  font-size: 2rem;
+  letter-spacing: 1px;
+  text-align: center;
+  background-color: #ccc;
+  padding: 10px;
+}
+
+.content {
+  display: flex;
+  height: calc(100vh - 68px);
+  width: 96vw;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at https://angular.io/license
+*/
